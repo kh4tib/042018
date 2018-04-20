@@ -71,14 +71,17 @@ ul {
 
         33% {
             border: 1px solid #21D4FD;
-            transform: rotate(0deg) scale(1);;
+            transform: rotate(0deg) scale(2);;
         }
 
        66% {
-            border: 1px solid #B721FF;
-            transform: rotate(90deg) scale(1);      
+            border: 1px solid #21D4FD;
+            transform: rotate(-90deg) scale(2);      
         }
-
         
+        100% {
+            border: 1px solid #B721FF;
+            transform: rotate(current) scale(1); 
+        }
     }
 }
